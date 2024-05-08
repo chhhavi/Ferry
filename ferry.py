@@ -10,11 +10,11 @@ import scipy.stats as stats
 def load_csv_into_dataframes():    
 
     # Load CSV into DataFrame
-    file_path = '/Users/chhavi/Documents/Python/Ferry/data.csv'  
+    file_path = '/Users/chhavi/workspace/Ferry/data.csv'  
     df_ferry = pd.read_csv(file_path)
 
     # Load Weather data CSV into DataFrame
-    file_path = '/Users/chhavi/Documents/Python/Ferry/weather.csv'  
+    file_path = '/Users/chhavi/workspace/Ferry/weather.csv'  
     df_weather = pd.read_csv(file_path)
 
     return df_ferry, df_weather
